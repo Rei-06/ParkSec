@@ -111,7 +111,7 @@ class ReportsListDetailViewController: UIViewController, UITextFieldDelegate, UI
     
     
     
-    //Textfield first responder functionality - Nassir Dajer
+    //Textfield first responder functionality 
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool{
         return true
     }
@@ -133,7 +133,7 @@ class ReportsListDetailViewController: UIViewController, UITextFieldDelegate, UI
         return true
     }
     
-    //dismiss keyboard when tapping outside of it - Nassir Dajer
+    //dismiss keyboard when tapping outside of it
     @IBAction func tapped(_ sender: UIGestureRecognizer){
         if makeTextField.isEditing {
             textFieldDidEndEditing(makeTextField)
